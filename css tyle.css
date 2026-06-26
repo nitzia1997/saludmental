@@ -1,0 +1,210 @@
+h1 {
+    color: #6c3b61;
+    font-family:'Comfortaa', sans-serif;
+    font-size: 80px;
+    background-color: #FAACBF;
+}
+p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px 80px ;
+    font-size: 20px;
+}
+
+h2 {
+    color:#CD2C58;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px 80px ;
+    font-size:60px;
+}
+h3 {
+    color: #E06B80;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px 80px;
+    font-size: 25px;
+}
+h4 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px 80px;
+    font-size: 20px;
+}
+li {
+    color: #EA7B7B;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px 80px;
+    font-size: 20px;
+}
+footer {
+    background-color: #EE6983;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px 200px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    height: 230px;
+    width: 100%;
+    margin: 0px;
+    padding-top:20px;
+    border: 0px;text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    height: 230px;
+    width: 1320px;
+    margin: -10px;
+    padding-top:20px;
+    border: 0px;
+}
+header {
+    background-color: #EDE9E6;
+}
+body {
+    background-color: #EDE9E6;
+}
+table{
+    margin: 10px 100px;
+    background-color: #F49BAB; 
+}
+th{
+    border: 2px solid rgb(125, 57, 94);
+    background-color: #FFB6C1;
+}
+td{
+    border: 2px solid black;
+    background-color: #EDE9E6;
+}
+    
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 1000px;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+}
+
+.box{
+    border: 3px solid #5C4F4A;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 15px;
+    width: 250px;
+    height: 900px;
+    padding: 25px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #F9DFDF;
+}
+
+.box p{
+    text-align: center;
+    word-break: normal;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    width: 100%;
+    margin: 0;
+}
+
+.box h3{
+    text-align: center;
+    margin: 0;
+    background-color: white;
+    border: 5px solid #5C4F4A;
+}
+button{
+    background-color: #FFEFEF;
+    font-size: 30px;
+    border: 2px solid #FAACBF;
+    cursor:pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20px;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    padding: 10px 10px;
+    margin-left: 80px;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+}
+a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: #FF4081;
+    margin: 10px 80px;
+
+}
+input{
+    background-color: #C9996B;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 25px;
+
+}
+textarea{
+    background-color: #FEEBF6;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+form button{
+    background-color: #FEEBF6;
+    font-size: 20px;
+    border: 2px solid black;
+    cursor:pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 1000px;
+}
+fieldset{
+    margin: 100px;
+    font-family: cursive;
+    font-size: 30px;
+
+}
+form{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+form input:focus{
+    border: 3px solid #285A48;
+    outline: none;
+
+}
+form textarea:focus{
+    border: 3px solid #285A48;
+    outline: none;
+   
+}
+.galeria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.controles{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.logo{
+    padding: 10px;
+    border: 0;
+    margin-left: 190px;
+}
+.pie{
+    display: flex;
+    justify-content: space-between;
+}
+.textpie{
+    padding: 70px;
+    margin-right: 90px;
+}
